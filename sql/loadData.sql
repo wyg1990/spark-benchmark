@@ -1,0 +1,11 @@
+use ${DB};
+insert into table customer_demographics select * from et_customer_demographics;
+insert into table date_dim select * from et_date_dim;
+insert into table time_dim select * from et_time_dim;
+insert into table item select * from et_item;
+insert into table store select * from et_store;
+insert into table customer select * from et_customer;
+insert into table promotion select * from et_promotion;
+insert into table household_demographics select * from et_household_demographics;
+insert into table customer_address select * from et_customer_address;
+insert into table store_sales select * from et_store_sales;

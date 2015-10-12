@@ -1,0 +1,4 @@
+#!/bin/bash
+source ./env.sh
+source scripts/configSource.sh
+source scripts/genData.sh
